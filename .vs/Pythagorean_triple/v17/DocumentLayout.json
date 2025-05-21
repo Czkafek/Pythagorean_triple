@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coding projects\\Pythagorean_triple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60884140-19F7-40CD-B9ED-5F755DDC5BE9}|Pythagorean_triple.vcxproj|D:\\coding projects\\Pythagorean_triple\\Pythagorean_triple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60884140-19F7-40CD-B9ED-5F755DDC5BE9}|Pythagorean_triple.vcxproj|solutionrelative:Pythagorean_triple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pythagorean_triple.cpp",
+              "DocumentMoniker": "D:\\coding projects\\Pythagorean_triple\\Pythagorean_triple.cpp",
+              "RelativeDocumentMoniker": "Pythagorean_triple.cpp",
+              "ToolTip": "D:\\coding projects\\Pythagorean_triple\\Pythagorean_triple.cpp",
+              "RelativeToolTip": "Pythagorean_triple.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T20:21:57.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
