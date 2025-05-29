@@ -44,6 +44,8 @@ int main()
 	cout << "W tym przedziale nie znaleziono żadnej trójki pitagorejskiej";
 	*/
 
+	// EUKLIDES
+
 	for (long long m = 2; m <= floor(sqrt(stop + 1)); m++) {
 		long long mSqr = m * m;
 		for (long long n = 1; n < m; n++) {
@@ -65,7 +67,6 @@ int main()
 		}
 	} 
 	cout << "W tym przedziale nie znaleziono żadnej trójki pitagorejskiej";
-
 
 
 
