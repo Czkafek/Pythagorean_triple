@@ -17,7 +17,7 @@ int main()
 {
 	setlocale(LC_CTYPE, "Polish");
 
-	int start, stop;
+	long long start, stop;
 
 	cout << "Podaj początek przedziału: ";
 	cin >> start;
@@ -44,14 +44,14 @@ int main()
 	cout << "W tym przedziale nie znaleziono żadnej trójki pitagorejskiej";
 	*/
 
-	for (int m = 2; m <= floor(sqrt(stop + 1)); m++ ) {
-		int mSqr = m * m;
-		for (int n = 1; n < m; n++) {
-			if (nwd(m, n) != 1 || (n + m) % 2 != 1) break;
-			int a = mSqr - n * n;
-			int b = 2 * m * n;
+	for (long long m = 2; m <= floor(sqrt(stop + 1)); m++) {
+		long long mSqr = m * m;
+		for (long long n = 1; n < m; n++) {
+			if (nwd(m, n) != 1 || (n + m) % 2 != 1) continue;
+			long long a = mSqr - n * n;
+			long long b = 2 * m * n;
 			if (a > stop || b > stop) break;
-			int k = 1;
+			long long k = 1;
 			while (true) {
 				if (k * a > stop || k * b > stop) break;
 				if (k * a > start-1 && k * b > start-1) {
