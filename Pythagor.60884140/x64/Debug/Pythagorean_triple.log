@@ -1,7 +1,7 @@
 ﻿  Pythagorean_triple.cpp
-D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(153,15): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
-D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(153,41): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
-D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(153,67): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
-D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(163,16): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
-D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(163,42): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(151,15): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(151,41): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(151,67): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(161,16): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+D:\coding projects\Pythagorean_triple\Pythagorean_triple.cpp(161,42): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
   Pythagorean_triple.vcxproj -> D:\coding projects\Pythagorean_triple\x64\Debug\Pythagorean_triple.exe

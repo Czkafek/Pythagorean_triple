@@ -125,7 +125,6 @@ int main()
 	*/
 
 	// EUKLIDES - STRUCT + VECTOR
-	bool isFound = false;
 	vector<Triple> foundTriples;
 
 	for (long long m = 2; m <= floor(sqrt(stop + 1)); m++) {
@@ -140,13 +139,12 @@ int main()
 				if (k * a > stop || k * b > stop) break;
 				if (k * a > start - 1 && k * b > start - 1) {	
 					foundTriples.push_back({ k * a, k * b, (mSqr + n * n) * k });
-					isFound = true;
 				}
 				k++;
 			}
 		}
 	}
-	if (isFound) {
+	if (foundTriples.size() > 0) {
 		for (int i = 0; i < foundTriples.size(); i++) {
 			for (int j = 0; j < foundTriples.size() - i - 1; j++) {
 				if (foundTriples[j].a > foundTriples[j + 1].a) {
